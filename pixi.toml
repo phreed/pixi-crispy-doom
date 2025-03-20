@@ -3,7 +3,7 @@ name = "pixi-crispy-doom"
 description = "Add a short description here"
 authors = ["Bas Zalmstra <zalmstra.bas@gmail.com>"]
 channels = ["https://prefix.dev/conda-forge"]
-platforms = ["win-64"]
+platforms = ["win-64", "linux-64", "osx-arm64", "osx-64"]
 preview = ["pixi-build"]
 
 #
