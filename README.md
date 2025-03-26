@@ -10,6 +10,10 @@ pixi run start
 ```
 
 > [!NOTE]
+> On Windows, replace the `platforms` with only `win-64` in the `pixi.toml`.
+> Supporting all platforms at the same time will be supported shortly!
+
+> [!NOTE]
 >
 > Crispy Doom (or this repository) does not ship with any game files (WAD files), however, you can download a free version of Doom from https://freedoom.github.io/download.html.
 > The `pixi run get-iwad` command is used to download the IWAD file automatically.

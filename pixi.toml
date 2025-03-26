@@ -2,7 +2,10 @@
 name = "pixi-crispy-doom"
 authors = ["Bas Zalmstra <zalmstra.bas@gmail.com>"]
 channels = ["https://prefix.dev/conda-forge"]
-platforms = ["win-64", "linux-64", "osx-arm64", "osx-64"]
+# Due to an known issue, mixing windows and linux/osx platforms is not supported.
+# Replace platforms with this to support windows only:
+# platforms = ["win-64"]
+platforms = ["linux-64", "osx-arm64", "osx-64"]
 preview = ["pixi-build"]
 
 #
