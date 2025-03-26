@@ -25,3 +25,9 @@ On running `pixi run start`, pixi will
 5. Run crispy doom with the IWAD file
 
 You only need `pixi` and `git` on your machine to get started.
+
+# Disclaimer
+This repository doesn't own [Crispy Doom](https://github.com/fabiangreffrath/crispy-doom) or [FreeDoom](https://github.com/freedoom/freedoom).
+They’re licensed separately.
+We’re just here to demo Pixi’s easy build process!
+This repo doesn't contain any of the game's source code or assets, they will all be downloaded on the users machine.
