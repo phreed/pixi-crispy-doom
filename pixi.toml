@@ -20,10 +20,6 @@ cmd = "crispy-doom -iwad freedoom-0.13.0/freedoom1.wad"
 description = "Start the crispy-doom executable from our locally built package."
 depends-on = ["module", "get-iwad"]
 
-[feature.prep.tasks.update-deps]
-cmd = ["git", "pull", "--recurse-submodules"]
-description = "This project has submodules so a simple `git pull` will not be enough."
-
 #
 # The prep environment is used to prepare the build environment.
 #
